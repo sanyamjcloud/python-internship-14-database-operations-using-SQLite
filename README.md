@@ -1,88 +1,42 @@
-README.md
+# Python SQLite Database Operations
 
-# Database App (SQLite + Python)
+## Overview
 
-## Project Overview
-
-This is a command-line Python database application demonstrating full CRUD operations using SQLite. It allows users to create a database, insert records, fetch data, update entries, and delete records securely using parameterized queries.
-
----
-
-## Features
-
-* Programmatic database and table creation
-* Insert user records dynamically
-* Fetch and display records in formatted table output
-* Update existing records
-* Delete records
-* SQL injection protection using parameterized queries
-* Proper transaction handling with commit
-* Safe connection closing
-
----
+This repository demonstrates basic database operations using SQLite in Python, including CRUD operations.
 
 ## Tech Stack
 
-* Python 3
-* SQLite3 (built-in library)
+* Python
+* SQLite
 
----
+## Features
 
-## File Structure
+* Create database and tables
+* Insert, update, delete records
+* Query data
 
-```
-project-folder/
-│
-├── database_app.py
-└── users.db (auto-generated after running)
-```
+## Usage
 
----
-
-## How to Run
-
-1. Open the project folder in VS Code
-2. Open terminal
-3. Run:
-
-```
-python database_app.py
+```bash
+python app.py
 ```
 
----
+## Example Operations
 
-## Menu Options
+* Insert records into table
+* Fetch data using queries
 
-```
-1. Add User
-2. View Users
-3. Update User
-4. Delete User
-5. Exit
-```
+## Sample Output
 
----
+(Add database query outputs)
 
-## Concepts Demonstrated
+## Learning Outcomes
 
-* Database connection handling
-* SQL schema creation
-* CRUD operations
-* Parameterized SQL queries
-* Data persistence using SQLite
+* Database interaction using Python
+* Basic SQL operations
+* Data persistence
 
----
+## Possible Enhancements
 
-## Future Improvements
-
-* Search functionality
-* Input validation
-* Password encryption support
-* GUI interface
-* Logging system
-
----
-
-## Author
-
-sanyam jain
+* Integrate with web application
+* Use ORM like SQLAlchemy
